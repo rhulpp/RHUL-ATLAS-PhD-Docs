@@ -1,0 +1,5 @@
+site_name: RHUL ATLAS PhD Tutorials
+theme: readthedocs
+nav:
+  - Home: index.md
+  - Example Tutorial: example.md
