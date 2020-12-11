@@ -28,4 +28,4 @@ With these two steps complete, submit a pull request to get your changes approve
 
 #Github Pages Integration
 
-The project is hosted live using Github pages at rhulpp.github.io/RHUL-ATLAS-PhD-Docs
+The project is hosted live using Github pages at https://rhulpp.github.io/RHUL-ATLAS-PhD-Docs
