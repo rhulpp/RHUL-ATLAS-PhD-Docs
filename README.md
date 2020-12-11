@@ -24,8 +24,12 @@ nav:
 	- <Tutorial name>: <Tutorial markdown file>
 ```
 
-With these two steps complete, submit a pull request to get your changes approved and integrated into the main repository
+With these two steps complete, submit a pull request to get your changes approved and integrated into the main repository.
+
+If you want to test your changes locally, you can run `mkdocs serve` from the folder containing the `mkdocs.yml` file to deploy a version of the project site to http://127.0.0.1:8000/
 
 #Github Pages Integration
 
-The project is hosted live using Github pages at https://rhulpp.github.io/RHUL-ATLAS-PhD-Docs
+The project site is hosted live using Github pages at https://rhulpp.github.io/RHUL-ATLAS-PhD-Docs
+
+To update the live version, checkout the master branch of the main repo, and then run the command `mkdocs gh-deploy`
