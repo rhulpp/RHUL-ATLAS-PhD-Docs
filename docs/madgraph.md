@@ -16,7 +16,7 @@ One should note that MC samples used in ATLAS publications are requested via an 
 ## Installation
 One can get the MG software either via two ways:
 
-- Download and unpack a tarball-file from the website [launchpad.net/mg5amcnlo/downlaods](https://launchpad.net/mg5amcnlo/+download)
+- Download and unpack a tarball-file from the website [launchpad.net/mg5amcnlo/downloads](https://launchpad.net/mg5amcnlo/+download)
 - Pull a branch with bazaar. All the branches are listed on their website [launchpad.net/mg5amcnlo/code](https://code.launchpad.net/mg5amcnlo)
 
 There are only a select few MG versions available in tarball-file. If one has bazaar installed on their machine it is possible to pull any branch, development or official release, listed in the page above. For all branches the only prerequisite software one needs is Python 2.6 or 2.7.
@@ -102,3 +102,8 @@ The ```param_card.dat``` specifies parameters such as particle masses, coupling 
 ![MGLO1OPTIONS](img/MG_outputdir.jpg)
 
 The generated events are saved in the compressed LHE-file ```unweighted_events.lhe.gz``` and the hadronized events in the compressed HEPMC-file ```tag_1_pythia8_events.hepmc.gz```.
+
+## References
+
+- Main reference for MadGraph [Arxiv:1405.0301](https://arxiv.org/pdf/1405.0301.pdf). This contains the theoretical description of MadGraph, instructions how to run MadGraph and example results. See the tables in the back of the paper for syntax examples of many processes.
+- MadGraph Tutorials by [O. Mattelaer](http://www.physics.ntua.gr/corfu2017/Talks/olivier_mattelaer@uclouvain_be_01.pdf), [Z. Wang](https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial) and [University of Shanghai(SJTU)](https://www.physics.sjtu.edu.cn/madgraphschool/sites/www.physics.sjtu.edu.cn.madgraphschool/files/Tutorial_shangai_basic_mg5.pdf)

@@ -28,6 +28,43 @@ With these two steps complete, submit a pull request to get your changes approve
 
 If you want to test your changes locally, you can run `mkdocs serve` from the folder containing the `mkdocs.yml` file to deploy a version of the project site to http://127.0.0.1:8000/
 
+## Markdown Syntax
+One can use the already existing markdown files and corresponding pages as examples for your own page. However, here are a few markdown syntax examples:
+
+Making a hyperlink
+```
+[TheClickableText](TheActualLink.com)
+```
+
+E-mail contact link
+```
+<John.Doe.2021@live.rhul.ac.uk>
+```
+
+List of bullet points:
+```
+- Item 1
+- Item 2
+- Item 3
+```
+Math block:
+```
+$$
+\beta_{i} = 2.5 \times x
+$$
+```
+
+Inline math mode:
+```
+Some text with an equation \( \alpha = \frac{x}{y} \) in the middle.
+```
+
+When including an image one needs to push it to the directory `docs/img`. Then one can render an image with:
+```
+![imagetitle](./img/someimage.jpg)
+```
+
+
 ## Github Pages Integration
 
 The project site is hosted live using Github pages at https://rhulpp.github.io/RHUL-ATLAS-PhD-Docs
