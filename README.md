@@ -29,14 +29,21 @@ With these two steps complete, submit a pull request to get your changes approve
 If you want to test your changes locally, you can run `mkdocs serve` from the folder containing the `mkdocs.yml` file to deploy a version of the project site to http://127.0.0.1:8000/
 
 ## Markdown Syntax
-One can use the already existing markdown files and corresponding pages as examples for your own page. However, here are a few markdown syntax examples:
+One can use the already existing markdown files and corresponding pages as examples for new pages. However, here are a few markdown syntax examples:
 
-Making a hyperlink
+Chapters and sections:
+```
+# Chapter
+## Section
+### Subsection
+```
+
+Hyperlink:
 ```
 [TheClickableText](TheActualLink.com)
 ```
 
-E-mail contact link
+E-mail contact link:
 ```
 <John.Doe.2021@live.rhul.ac.uk>
 ```
