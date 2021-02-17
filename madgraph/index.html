@@ -52,7 +52,11 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../example/">Example Tutorial</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../analysistop/">AnalysisTop</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../trexfitter/">TRexFitter</a>
                     </li>
                 </ul>
                 <ul class="current">
@@ -74,7 +78,29 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#leading-order-calculations">Leading Order calculations</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#references">References</a>
+    </li>
     </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../uproot/">Uproot</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../delphes/">Delphes</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../kerastensorflow/">Keras & Tensorflow</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../docker/">Docker</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../condorpbs/">HTCondor & PBS</a>
                     </li>
                 </ul>
       </div>
@@ -124,7 +150,7 @@
 <h2 id="installation">Installation</h2>
 <p>One can get the MG software either via two ways:</p>
 <ul>
-<li>Download and unpack a tarball-file from the website <a href="https://launchpad.net/mg5amcnlo/+download">launchpad.net/mg5amcnlo/downlaods</a></li>
+<li>Download and unpack a tarball-file from the website <a href="https://launchpad.net/mg5amcnlo/+download">launchpad.net/mg5amcnlo/downloads</a></li>
 <li>Pull a branch with bazaar. All the branches are listed on their website <a href="https://code.launchpad.net/mg5amcnlo">launchpad.net/mg5amcnlo/code</a></li>
 </ul>
 <p>There are only a select few MG versions available in tarball-file. If one has bazaar installed on their machine it is possible to pull any branch, development or official release, listed in the page above. For all branches the only prerequisite software one needs is Python 2.6 or 2.7.</p>
@@ -184,6 +210,11 @@
 <p>The <code>param_card.dat</code> specifies parameters such as particle masses, coupling strengths and decay widths. This will depend on the model loaded earlier i.e. SMEFTatNLO in this case. The <code>run_card.dat</code> specifies things like the number of events, cuts, PDF set and beam energy. If one choose a hadronization program, eg. pythia8, one can specify hadronization options in <code>pythia8_card.dat</code>. After setting these final options one can run the event generation. The output can be found in the previously defined output directory in the Events/run_01 subdirectory.</p>
 <p><img alt="MGLO1OPTIONS" src="../img/MG_outputdir.jpg" /></p>
 <p>The generated events are saved in the compressed LHE-file <code>unweighted_events.lhe.gz</code> and the hadronized events in the compressed HEPMC-file <code>tag_1_pythia8_events.hepmc.gz</code>.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Main reference for MadGraph <a href="https://arxiv.org/pdf/1405.0301.pdf">Arxiv:1405.0301</a>. This contains the theoretical description of MadGraph, instructions how to run MadGraph and example results. See the tables in the back of the paper for syntax examples of many processes.</li>
+<li>MadGraph Tutorials by <a href="http://www.physics.ntua.gr/corfu2017/Talks/olivier_mattelaer@uclouvain_be_01.pdf">O. Mattelaer</a>, <a href="https://twiki.cern.ch/twiki/bin/view/CMSPublic/MadgraphTutorial">Z. Wang</a> and <a href="https://www.physics.sjtu.edu.cn/madgraphschool/sites/www.physics.sjtu.edu.cn.madgraphschool/files/Tutorial_shangai_basic_mg5.pdf">University of Shanghai(SJTU)</a></li>
+</ul>
               
             </div>
           </div>
@@ -191,8 +222,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../uproot/" class="btn btn-neutral float-right" title="Uproot">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../example/" class="btn btn-neutral" title="Example Tutorial"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../trexfitter/" class="btn btn-neutral" title="TRexFitter"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -218,8 +251,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../example/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../trexfitter/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../uproot/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
