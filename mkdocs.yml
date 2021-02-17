@@ -9,5 +9,12 @@ markdown_extensions:
 theme: readthedocs
 nav:
   - Home: index.md
-  - Example Tutorial: example.md
+  - AnalysisTop: analysistop.md
+  - TRexFitter: trexfitter.md
   - MadGraph5_aMC@NLO: madgraph.md
+  - Uproot: uproot.md
+  - Delphes: delphes.md
+  - Keras & Tensorflow: kerastensorflow.md
+  - Docker: docker.md
+  - HTCondor & PBS: condorpbs.md
+  
